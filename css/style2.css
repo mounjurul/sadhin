@@ -1,0 +1,94 @@
+@media screen and (min-width: 1400px) {
+    
+  }
+  
+  
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.main-class{
+    width: 100%;
+    min-height: 100vh;
+    background: #5c539d;
+
+
+}
+.main-class h2{
+    color: white;
+    font-size: 35px;
+    padding: 50px 0;
+    text-align: center;
+}
+.price-row{
+ width: 90%;
+ max-width: 1100px;
+ margin: auto;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+ grid-gap: 25px;
+
+}
+.price-col{
+    background: #111011;
+     padding: 10% 15%;
+     border-radius: 40px;
+     color: white;
+     text-align: center;
+
+     animation-name: example;
+     animation-duration: 5s;
+     animation-delay: -2s;
+}
+
+@keyframes example {
+    0%   {background-color:rgb(108, 212, 238);}
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green;}
+    100% {background-color:rgb(77, 224, 168);}
+  }
+
+
+.price-col p{
+    font-size: 22px;
+
+    
+}
+.price-col h3{
+    font-size: 44px;
+    margin: 22px 0 40px;   
+    font-weight: 500;
+
+}
+.price-col ul{
+    text-align: left;
+    margin: 20px 0;
+    list-style: none;
+    color: #ddd;
+      
+}
+.price-col ul li{
+    font-weight: 350;
+    color: white;
+    margin: 15px 0;
+list-style-type: square;
+
+}
+ a{
+    height: 25px;
+    width: 70px;
+    background-color: crimson;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+
+
+
+}
